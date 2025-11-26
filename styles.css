@@ -1,0 +1,20 @@
+
+:root{--bg:#0f172a;--fg:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--card:#111827;--border:#1f2937}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,"Segoe UI",Roboto,Arial;color:var(--fg);background:var(--bg)}
+.site-header{padding:2rem 1.5rem;text-align:center;border-bottom:1px solid var(--border)}
+.site-header h1{margin:.5rem 0 0}
+.controls{display:flex;gap:.75rem;justify-content:center;margin:1rem auto;flex-wrap:wrap}
+.controls input,.controls select,.controls .cta{padding:.6rem .8rem;border:1px solid var(--border);background:#0b1220;color:var(--fg);border-radius:.5rem;min-width:240px}
+.controls .cta{min-width:auto;cursor:pointer}
+.container{max-width:1100px;margin:0 auto;padding:2rem 1rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:.75rem;padding:1rem;margin:0 0 1rem}
+.card h2{margin:.2rem 0 .75rem;font-size:1.25rem}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border:1px solid var(--border);padding:.5rem;text-align:left}
+.table th{background:#0b1220;color:var(--muted)}
+.badge{display:inline-block;padding:.15rem .5rem;border:1px solid var(--border);border-radius:.5rem;color:var(--muted);margin-left:.5rem;font-size:.8rem}
+.copy-btn{margin-left:.5rem;padding:.25rem .5rem;border:1px solid var(--border);border-radius:.4rem;background:#0b1220;color:var(--fg);cursor:pointer}
+.copy-btn:focus{outline:2px solid var(--accent)}
+.no-results{color:var(--muted);text-align:center;padding:2rem}
+.site-footer{padding:1rem;text-align:center;border-top
