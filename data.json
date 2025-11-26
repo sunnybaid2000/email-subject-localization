@@ -1,0 +1,67 @@
+
+{
+  "eventTypes": [
+    "Registration confirmation",
+    "Waitlist confirmation",
+    "Waitlist denied",
+    "Event update reschedule",
+    "Event Cancellation",
+    "Event reminder",
+    "Thank you for attending",
+    "Sorry we missed you",
+    "Registration Pending",
+    "Apology Pre-resolution/Event Agenda Update Email",
+    "Microsoft Event On-Demand Registration Confirmation"
+  ],
+  "items": [
+    {
+      "language": "EN-US",
+      "subjects": {
+        "Registration confirmation": "Microsoft Event Registration Confirmation",
+        "Registration Pending": "Microsoft Event Registration Pending",
+        "Waitlist confirmation": "Microsoft Event Registration Status Update",
+        "Event update reschedule": "Microsoft Event Change Notice to Registered Customers",
+        "Event Cancellation": "Microsoft Event Cancellation Notice to Registered Customers",
+        "Event reminder": "Microsoft Event Reminder",
+        "Thank you for attending": "Thank You For Attending",
+        "Sorry we missed you": "We’re Sorry We Missed You",
+        "Apology Pre-resolution/Event Agenda Update Email": "Sorry, we experienced an issue with your event",
+        "Microsoft Event On-Demand Registration Confirmation": "Microsoft Event On-Demand Registration Confirmation"
+      }
+    },
+    {
+      "language": "EN-GB",
+      "subjects": {
+        "Registration confirmation": "Microsoft Event Registration Confirmation",
+        "Registration Pending": "Microsoft Event Registration Pending",
+        "Waitlist confirmation": "Microsoft Event Registration Status Update",
+        "Event update reschedule": "Microsoft Event Change Notice to Registered Customers",
+        "Event Cancellation": "Microsoft Event Cancellation Notice to Registered Customers",
+        "Event reminder": "Microsoft Event Reminder",
+        "Thank you for attending": "Thank You For Attending",
+        "Sorry we missed you": "We’re Sorry We Missed You",
+        "Apology Pre-resolution/Event Agenda Update Email": "Sorry, we experienced an issue with your event",
+        "Microsoft Event On-Demand Registration Confirmation": "Microsoft Event On-Demand Registration Confirmation"
+      }
+    },
+
+    /* --- Include the rest of your languages here.
+       I generated a complete JSON from your Excel—if you prefer,
+       use the script below (Section 6) to create data.json automatically. --- */
+
+    {
+      "language": "FR-FR",
+      "subjects": {
+        "Registration confirmation": "Confirmation de l’inscription à un événement Microsoft",
+        "Registration Pending": "Inscription à un événement Microsoft en attente",
+        "Waitlist confirmation": "Mise à jour du statut de l’inscription à un événement Microsoft",
+        "Event update reschedule": "Avis de modification d’un événement Microsoft pour les clients inscrits",
+        "Event Cancellation": "Avis d’annulation d’un événement Microsoft pour les clients inscrits",
+        "Event reminder": "Rappel d’un événement Microsoft",
+        "Thank you for attending": "Nous vous remercions de votre participation !",
+        "Sorry we missed you": "Nous regrettons votre absence !",
+        "Apology Pre-resolution/Event Agenda Update Email": "Désolé, nous avons rencontré un problème avec votre événement",
+        "Microsoft Event On-Demand Registration Confirmation": "Confirmation de l'inscription au webinar à la demande de Microsoft"
+      }
+    }
+  ]
